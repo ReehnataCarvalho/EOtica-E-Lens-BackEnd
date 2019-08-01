@@ -7,6 +7,6 @@ var ProdutoSchema = new Schema({
     preco: { type: String, required: true  }
 })
 
-const produtoModel = mongoose.model("produto", ProdutoSchema)
+const produtoModel = mongoose.model("produtos", ProdutoSchema)
 
 module.exports = produtoModel

@@ -46,5 +46,5 @@ server.post('/produto/add', (request, response) => {
 })
 
 server.listen(PORT)
-console.log("------Server is working------")
-console.log("PORT : http://localhost:8000/produto/")
+console.log("servidor rodando na porta ",PORT)
+// console.log("PORT : http://localhost:8000/produtos/")
